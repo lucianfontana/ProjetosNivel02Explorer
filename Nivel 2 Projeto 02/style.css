@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Mulish&family=Open+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-width: 100vh;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+}
+
+.page{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+.cab{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px ;
+  
+}
+
+.nav{
+display: flex;
+gap: 48px;
+cursor: pointer;
+}
+
+.itemMenu{
+  opacity: 0.5;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1F1534;
+}
+
+.itemMenu:hover{
+ font-weight: bold;
+ opacity: 1;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 102px;
+}
+
+.Tit1{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 49px;
+  padding-bottom: 40px;
+}
+.cor{
+  color: #89C5CC ;
+}
+
+.parag1{
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  padding-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btnWhats{
+  width: 179px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #69B99D;  
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: white;
+  border: none;
+  gap: 10px;
+}
+
+.btnWhats:hover{
+  cursor: pointer;
+  background: #068f5f;
+}
+
+.rodp{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 82px;
+  
+}
+footer a{
+  text-decoration: none;
+}
+
+
+.imgBall{
+  position:fixed;
+  bottom: 0;
+  right: 0;
+}
